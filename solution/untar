@@ -4,4 +4,4 @@ unpacked_dir="${archive}.unpacked"
 if [ ! -d "$unpacked_dir" ]; then
 	mkdir "$unpacked_dir"
 fi
-tar -xvf "$archive" -C "$unpacked_dir"
+tar -xf "$archive" -C "$unpacked_dir"
